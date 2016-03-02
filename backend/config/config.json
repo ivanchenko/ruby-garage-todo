@@ -1,0 +1,25 @@
+{
+  "port": 8080,
+  "ip": "127.0.0.1",
+
+  "mongoose": {
+    "uri": "mongodb://localhost/todo",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  },
+
+  "session": {
+    "secret": "KillerIsJim",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  }
+}
