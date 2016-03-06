@@ -33,7 +33,6 @@ app.use(session({
 }));
 
 app.use(require('./middleware/sendHttpError'));
-app.use(require('./middleware/loadUser'));
 
 require('./routes')(app);
 

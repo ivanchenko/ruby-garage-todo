@@ -26,7 +26,7 @@ module.exports.post = function (req, res, next) {
         }
 
         req.session.user = user;
-        res.status(200).send({userId: user._id});
+        res.status(200).send({userId: user._id, username: user.username});
       });
       break;
 
@@ -36,7 +36,7 @@ module.exports.post = function (req, res, next) {
         if (err) return next(err);
 
         req.session.user = user;
-        res.status(200).send({userId: user._id});
+        res.status(200).send({userId: user._id, username: user.username});
       });
       break;
 

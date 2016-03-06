@@ -3,10 +3,10 @@
 var HttpError = require('../errors/HttpError');
 
 module.exports = function (req, res, next) {
-  if (req.user) {
-    next();
-  } else {
-    //next(new HttpError(403, 'User not authorised'));
-    next();
-  }
+    if (req.session.user) {
+        next();
+    } else {
+        res.redirect('/login');
+        console.log('user not authorised');
+    }
 };
