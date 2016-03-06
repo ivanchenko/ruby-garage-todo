@@ -79,6 +79,8 @@ body {
 }
 
 .username {
+    font-size: 21px;
+    margin-top: 0;
     align-self: flex-end;
     text-align: right;
 }
@@ -103,8 +105,8 @@ body {
 
 .btn-add-project {
     display: flex;
-    padding: 7px 20px;
-
+    padding: 8px 16px;
+    
     font-size: 18px;
     font-weight: 100;
 
@@ -112,4 +114,18 @@ body {
     border: 1px solid lightgrey;
     border-radius: 4px;
     color: black;
+}
+
+.date-picker {
+    outline: none;
+}
+
+.DayPicker-Day {
+    outline: none;
+}
+
+.deadline-label {
+    font-size: 17px;
+    font-weight: 100;
+    padding: 8px 16px;
 }

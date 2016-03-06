@@ -1,3 +1,5 @@
+window.jQuery = window.$ =  require('jquery/dist/jquery.min');
+
 import './css/main.css';
 
 import ReactDOM from 'react-dom';
