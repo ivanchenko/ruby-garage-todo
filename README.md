@@ -2,20 +2,18 @@
 Simple todo app allows to manage your projects and tasks
 
 ### Demo
- **App page**: iv-todo.herokuapp.com <br>
- 
- Test user: <br>
-  **username**: John Smith <br>
-  **password**: 1234
+ **App**: http://iv-todo.herokuapp.com/login <br>
+ **Username**: John Smith <br>
+ **Password**: 1234
   
 ### Run app localy
 To run this app you should have installed **mongodb** and **node js** 
 
 ```sh
-git clone https://github.com/ivanchenko/todo.git
-cd todo && npm install
-cd frontend && webpack
-node backend/app.js
+$ git clone https://github.com/ivanchenko/todo.git
+$ cd todo && npm install
+$ cd frontend && webpack
+$ node backend/app.js
 ```
 
 App will be available on http://localhost:8080/
