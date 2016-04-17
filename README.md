@@ -2,7 +2,8 @@
 Simple todo app allows to manage your projects and tasks
 
 ### Demo
- App page: iv-todo.herokuapp.com
+ **App page**: iv-todo.herokuapp.com <br>
+ 
  Test user: <br>
   **username**: John Smith <br>
   **password**: 1234
